@@ -48,6 +48,13 @@ button {
 .fourth-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.fifth-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
 }
 
 button:hover {
