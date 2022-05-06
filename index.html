@@ -11,29 +11,31 @@
     <div class="calculator">
       <input type="text" name="screen" id="screen" />
       <div class="first-row">
-        <td><button>C</button></td>
-        <td><button>()</button></td>
-        <td><button>%</button></td>
-        <td><button>/</button></td>
+        <td><button id="one" onclick="one()">1</button></td>
+        <td><button onclick="two()">2</button></td>
+        <td><button onclick="three()">3</button></td>
+        <td><button onclick="add()">+</button></td>
+        <td><button id="equals" onclick="equals()">=</button></td>
       </div>
       <div class="second-row">
-        <td><button>1</button></td>
-        <td><button>2</button></td>
-        <td><button>3</button></td>
-        <td><button>X</button></td>
-      </div>
-      <div class="third-row">
-        <td><button>4</button></td>
-        <td><button>5</button></td>
-        <td><button>6</button></td>
+        <td><button onclick="four()">4</button></td>
+        <td><button onclick="five()">5</button></td>
+        <td><button onclick="six()">6</button></td>
         <td><button>-</button></td>
       </div>
+      <div class="third-row">
+        <td><button onclick="seven()">7</button></td>
+        <td><button onclick="eight()">8</button></td>
+        <td><button onclick="nine()">9</button></td>
+        <td><button>X</button></td>
+      </div>
       <div class="fourth-row">
-        <td><button>7</button></td>
-        <td><button>8</button></td>
-        <td><button>9</button></td>
-        <td><button>=</button></td>
+        <td><button>C</button></td>
+        <td><button onclick="zero()">0</button></td>
+        <td><button>.</button></td>
+        <td><button>/</button></td>
       </div>
     </div>
   </body>
+  <script src="./app.js"></script>
 </html>
